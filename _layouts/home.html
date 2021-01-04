@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}" dir="ltr">
+
+  {%- include head.html -%}
+
+  <body class="flex flex-col justify-center">
+    {% if page.url == "/" %}
+      <!-- Announcement -->
+      <div class="bg-yellow-200 text-center p-4">
+        <p class="text-sm text-gray-700"><a class="hover:text-red-500 focus:text-red-500" href="#">🎉 <span class="pl-2 font-semibold">Good news!</span> We've recently added Halton!</a></p>
+      </div>
+
+    {% else %}
+
+    {% endif %}
+
+    {%- include masthead.html -%}
+
+    {%- include hero-main.html -%}
+
+    {{ content }}
+
+    {%- include footer.html -%}
+
+    {%- include scripts.html -%}
+
+  </body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}" dir="ltr">
+
+  {%- include head.html -%}
+
+  <body class="crisis flex flex-col justify-center">
+
+    {%- include masthead.html -%}
+
+    {%- include hero-main.html -%}
+
+    {{ content }}
+
+    {%- include footer.html -%}
+
+    {%- include scripts.html -%}
+
+  </body>
+</html>

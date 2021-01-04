@@ -1,0 +1,42 @@
+{% if page.url == "/" %}
+<!-- Hero Section -->
+<section class="bg-yellow-100">
+  <div class="flex flex-col-reverse max-w-screen-2xl pt-2 pt-0 mx-auto items-center px-4 md:px-8 lg:flex-row">
+      <div class="flex items-baseline w-full md:w-3/4 lg:w-2/4 xlg:max-w-lg">
+        <img src="{{ "/assets/img/walking-outside.svg" | relative_url }}" alt="Image of walking outside">
+      </div>
+      <div class="flex flex-col items-center w-full pt-0 mb-6 lg:w-5/12 lg:items-start lg:ml-20 lg:mb-20">
+        <!-- Hero Tagline -->
+        <h1 class="mb-2 text-3xl text-center font-semibold text-gray-90 md:text-5xl lg:text-left lg:text-4xl xl:text-5xl">Find the support you need</h1>
+        <p class="mb-2 text-3xl text-center text-gray-90 font-light lg:text-left">Spend, save and manage your money, all in one place. Open a full UK bank account from your phone, for free. 🥰</p>
+          <div class="flex flex-col xl:flex-row justify-center">
+              <a class="px-4 py-2 mt-4 md:text-md font-semibold text-blue-100 bg-blue-500 rounded-full shadow hover:text-blue-500 focus:text-blue-500 hover:bg-blue-100 focus:bg-blue-100 focus:outline-none focus:shadow-outline" href="#">Explore Places →</a>
+          </div>
+      </div>
+  </div>
+</section>
+
+{% else if page.url == "/crisis/" %}
+<!-- Hero Section -->
+<section class="bg-red-100">
+  <div class="flex flex-col-reverse max-w-screen-2xl pt-2 pt-0 mx-auto items-center px-4 md:px-8 lg:flex-row">
+      <div class="flex items-baseline w-full mb-4 md:w-3/4 lg:w-2/4 xlg:max-w-lg">
+        <img src="{{ "/assets/img/crisis-image.svg" | relative_url }}" alt="Image of walking outside">
+      </div>
+      <div class="flex flex-col items-center w-full pt-0 mb-6 md:mb-10 lg:w-5/12 lg:items-start lg:ml-20 lg:mb-20">
+        <!-- Hero Tagline -->
+        <h1 class="mb-2 text-3xl text-center font-semibold text-gray-90 md:text-5xl lg:text-left lg:text-4xl xl:text-5xl">At risk right now?</h1>
+        <p class="mb-2 text-3xl text-center font-light lg:text-left">If you feel like you might attempt suicide, or may have seriously harmed yourself, you need urgent medical help. Please:</p>
+        <ul class="bg-white shadow p-4 my-4 rounded-xl divide-y-2 divide-solid">
+          <li class="pb-2">Call <a class="text-red-500" href="tel:999">999</a> for an ambulance</li>
+          <li class="py-2">Go straight to A&E, if you can</li>
+          <li class="pt-2">Or call your local crisis team, if you have their number.</li>
+        </ul>
+        <p>If you can't do this by yourself, ask someone to help you. Mental health emergencies are serious. You're not wasting anyone's time.</p>
+
+      </div>
+  </div>
+</section>
+{% else %}
+
+{% endif %}
