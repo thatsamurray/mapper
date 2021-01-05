@@ -1,15 +1,9 @@
----
-layout: crisis
-title: Crisis
-permalink: /crisis/
----
-
-<section class="text-gray-700 body-font">
+I"<section class="text-gray-700 body-font">
 <div class="max-w-screen-2xl px-4 py-12 mx-auto md:px-8">
     <header class="post-header">
       <h1 class="text-3xl text-center font-semibold text-gray-90 md:text-3xl mb-4 md:mb-4">Sometimes we need someone to speak to</h1>
     </header>
-    <p class="text-2xl text-center text-gray-90 font-light">Here are some services that can help. 🥰</p>
+    <p class="text-2xl text-center text-gray-90 font-light">Below are some services that can help. 🥰</p>
 </div>
 
   <div class="max-w-screen-2xl px-12 pb-12 mx-auto md:px-10">
@@ -53,3 +47,4 @@ permalink: /crisis/
     </div>
   </div>
 </section>
+:ET
