@@ -3,7 +3,14 @@ layout: home
 ---
 
 <section>
-  <div class="max-w-screen-2xl px-12 py-12 mx-auto md:px-10">
+<div class="max-w-screen-2xl px-4 py-12 mx-auto md:px-8">
+    <header class="post-header">
+      <h1 class="text-3xl text-center font-semibold md:text-3xl mb-4 md:mb-4">Sometimes we need someone to speak to</h1>
+    </header>
+    <p class="text-2xl text-center font-light">Here are some services that can help 🥰</p>
+</div>
+
+  <div class="max-w-screen-2xl px-12 pb-12 mx-auto md:px-10">
     <div class="md:flex md:flex-wrap -m-6">
       <div class="md:p-4 mx-auto mb-6 md:w-1/2 md:mb-0">
         <div class="bg-gray-100 rounded-xl flex flex-row border-l-8 border-yellow-200 lg:border-l-0">

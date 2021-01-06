@@ -3,7 +3,14 @@ layout: home
 ---
 
 <section>
-  <div class="max-w-screen-2xl px-12 py-12 mx-auto md:px-10">
+<div class="max-w-screen-2xl px-4 py-12 mx-auto md:px-8">
+    <header class="post-header">
+      <h1 class="text-3xl text-center font-semibold md:text-3xl mb-4 md:mb-4">Sometimes we need someone to speak to</h1>
+    </header>
+    <p class="text-2xl text-center font-light">Here are some services that can help 🥰</p>
+</div>
+
+  <div class="max-w-screen-2xl px-12 pb-12 mx-auto md:px-10">
     <div class="md:flex md:flex-wrap -m-6">
       <div class="md:p-4 mx-auto mb-6 md:w-1/2 md:mb-0">
         <div class="bg-gray-100 rounded-xl flex flex-row border-l-8 border-yellow-200 lg:border-l-0">
@@ -14,7 +21,7 @@ layout: home
             <div class="flex">
               <span class="px-2 py-1 mb-2 text-sm bg-green-100 font-normal text-green-400 rounded">In Progress</span>
             </div>
-              <a class="pb-2 w-full text-2xl font-semibold hover:text-yellow-700" href="{{ "/places/merseyside" | relative_url }}">Merseyside</a>
+              <a class="pb-2 w-full text-2xl font-semibold hover:text-yellow-700" href="{{ "/places/merseyside" | relative_url }}">Knowsley</a>
             <p class="pb-4">Covering Knowsley, St Helens, Sefton, Wirral and the city of Liverpool.</p>
             <div class="flex"> 
               <a class="bg-yellow-200 text-md text-yellow-600 hover:bg-yellow-600 hover:text-yellow-200 px-4 py-2 rounded" href="{{ "/places/merseyside" | relative_url }}">Browse Merseyside</a>
@@ -31,7 +38,7 @@ layout: home
             <div class="flex">
               <span class="px-2 py-1 mb-2 text-sm bg-green-100 font-normal text-green-400 rounded">In Progress</span>
             </div>
-            <a class="pb-2 w-full text-2xl font-semibold hover:text-yellow-700" href="{{ "/places/cheshire" | relative_url }}">Cheshire</a>
+            <a class="pb-2 w-full text-2xl font-semibold hover:text-yellow-700" href="{{ "/places/cheshire" | relative_url }}">St. Helens</a>
             <p class="pb-4">Covering Cheshire East, Cheshire West and Chester, Halton and Warrington.</p>
             <div class="flex"> 
               <a class="bg-yellow-200 text-md text-yellow-600 hover:bg-yellow-600 hover:text-yellow-200 px-4 py-2 rounded" href="{{ "/places/cheshire" | relative_url }}">Browse Cheshire</a>
