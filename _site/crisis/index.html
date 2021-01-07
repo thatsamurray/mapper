@@ -3,7 +3,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Crisis | mapper.health</title>
+<title>Crisis | healthmapper</title>
 <meta name="generator" content="Jekyll v4.2.0" />
 <meta property="og:title" content="Crisis" />
 <meta property="og:locale" content="en_US" />
@@ -11,22 +11,22 @@
 <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
 <link rel="canonical" href="/crisis/" />
 <meta property="og:url" content="/crisis/" />
-<meta property="og:site_name" content="mapper.health" />
+<meta property="og:site_name" content="healthmapper" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Crisis" />
 <script type="application/ld+json">
 {"url":"/crisis/","headline":"Crisis","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="mapper.health" /></head>
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="healthmapper" /></head>
 
 <body class="crisis flex flex-col justify-center text-gray-700"><!-- Masterhead -->
 
 
-    <header class="w-full py-4 md:py-4 text-gray-700 bg-red-50">
+    <header class="w-full py-4 md:py-4 text-red-100 bg-red-700">
       <div x-data="{ open: false }" class="flex flex-col max-w-screen-2xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-8">
         <div class="py-2 flex flex-row items-center justify-between">
           <!-- Logo -->
-          <a href="/" class="text-lg md:text-2xl text-gray-900 rounded-lg focus:outline-none focus:shadow-outline">‍health<span class="font-bold">mapper</span></a>
+          <a href="/" class="text-lg md:text-2xl text-purple-100 rounded-lg focus:outline-none focus:shadow-outline">‍health<span class="font-bold">mapper</span></a>
           <button class="md:hidden rounded-lg focus:outline-none focus:shadow-outline" @click="open = !open">
             <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
               <path x-show="!open" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
@@ -38,18 +38,18 @@
         <!-- Navigation -->
         <nav :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow pb-4 md:pb-0 hidden md:flex md:justify-end md:flex-row">
           <div @click.away="open = false" class="relative" x-data="{ open: false }">
-            <button @click="open = !open" class="flex flex-row items-center w-full px-2 py-2 mt-2 md:text-md font-semibold text-left bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 hover:text-red-700 focus:text-red-700 hover:bg-red-300 focus:bg-red-300 focus:outline-none focus:shadow-outline">
+            <button @click="open = !open" class="flex flex-row items-center w-full px-2 py-2 mt-2 md:text-md font-semibold text-left bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-red-600 focus:bg-red-600 focus:outline-none focus:shadow-outline">
               <span>Browse Places</span>
               <svg fill="currentColor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}" class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
             </button>
             <div x-show="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute right-0 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-80">
               <div class="px-2 py-2 bg-white rounded-md shadow">
-                <a class="flex flex row items-center rounded-lg bg-transparent p-2 hover:text-red-700 focus:text-red-700 hover:bg-red-100 focus:bg-red-100 focus:outline-none focus:shadow-outline" href="#">
+                <a class="flex flex row items-center rounded-lg bg-transparent p-2 text-red-700 hover:text-red-600 focus:text-red-600 hover:bg-red-200 focus:bg-red-200 focus:outline-none focus:shadow-outline" href="/places/merseyside">
                   <div class="ml-3">
                     <p class="md:text-md font-semibold">Merseyside <span class="px-2 py-1 ml-2 text-sm bg-green-100 font-normal text-green-400 rounded">In Progress</span></p>
                   </div>
                 </a>
-                <a class="flex flex row items-center rounded-md bg-transparent p-2 hover:text-red-700 focus:text-red-700 hover:bg-red-100 focus:bg-red-100 focus:outline-none focus:shadow-outline" href="#">
+                <a class="flex flex row items-center rounded-md bg-red-50 p-2 text-red-700 hover:text-red-600 focus:text-red-600 hover:bg-red-200 focus:bg-red-200 focus:outline-none focus:shadow-outline" href="/places/cheshire">
                   <div class="ml-3">
                     <p class="md:text-md font-semibold">Cheshire <span class="px-2 py-1 ml-2 text-sm bg-green-100 font-normal text-green-400 rounded">In Progress</span></p>
                   </div>
@@ -57,8 +57,8 @@
               </div>
             </div>
           </div>
-          <a class="px-2 py-2 mt-2 md:text-md font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-red-700 focus:text-red-700 hover:bg-red-300 focus:bg-red-300 focus:outline-none focus:shadow-outline" href="/resources/">Resources</a>
-          <a class="flex flex-row items-center w-full px-2 py-2 mt-2 md:text-md font-semibold text-left bg-transparent text-red-500 rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 hover:text-red-700 focus:text-red-700 hover:bg-red-300 focus:bg-red-300 focus:outline-none focus:shadow-outline" href="/crisis/">Crisis Information</a>
+          <a class="px-2 py-2 mt-2 md:text-md font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-red-600 focus:bg-red-600 focus:outline-none focus:shadow-outline" href="/resources/">Resources</a>
+          <a class="flex flex-row items-center w-full px-2 py-2 mt-2 md:text-md font-semibold text-left bg-transparent text-red-300 rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-red-600 focus:bg-red-600 focus:outline-none focus:shadow-outline" href="/crisis/">Crisis Information</a>
         </nav>
       </div>
     </header>
@@ -69,16 +69,16 @@
   
 
 <!-- Hero Section -->
-<section class="bg-red-200">
-  <div class="flex flex-col-reverse max-w-screen-2xl mx-auto items-center px-4 md:px-8 lg:flex-row">
-      <div class="flex items-baseline w-full mb-4 md:w-3/4 lg:w-2/4  lg:my-8 xlg:max-w-lg">
+<section class="bg-red-700 text-red-100">
+  <div class="flex flex-col-reverse max-w-screen-2xl mx-auto items-center px-4 md:px-8 lg:my-12 lg:flex-row">
+      <div class="flex items-baseline w-full mb-4 md:w-3/4 lg:w-2/4 lg:my-8 xlg:max-w-lg">
         <img src="/assets/img/crisis-image.svg" alt="Image of walking outside">
       </div>
       <div class="flex flex-col items-center w-full pt-0 px-6 mb-6 md:mb-10 lg:w-5/12 xl:w-1/2 lg:items-start lg:ml-20 lg:mt-10">
         <!-- Hero Tagline -->
-        <h1 class="mb-2 text-3xl text-center font-semibold md:text-5xl lg:text-left lg:text-4xl xl:text-5xl">At risk right now?</h1>
-        <p class="mb-2 text-3xl text-center font-light lg:text-left">If you feel like you might attempt suicide, or may have seriously harmed yourself, you need urgent medical help:</p>
-        <ul class="bg-white shadow p-4 my-4 rounded-xl divide-y-2 divide-solid">
+        <h1 class="mb-2 text-3xl text-center text-white font-semibold md:mb-4 md:text-5xl lg:text-left lg:text-4xl xl:text-5xl">At risk right now?</h1>
+        <p class="mb-2 text-3xl text-center font-light md:mb-4 lg:text-left">If you feel like you might attempt suicide, or may have seriously harmed yourself, you need urgent medical help:</p>
+        <ul class="bg-white text-gray-700 shadow p-4 my-4 rounded-xl divide-y-2 divide-solid">
           <li class="pb-2">Call <a class="text-red-500" href="tel:999">999</a> for an ambulance</li>
           <li class="py-2">Go straight to A&E, if you can</li>
           <li class="pt-2">Or call your local crisis team, if you have their number.</li>
@@ -144,8 +144,8 @@
   </div>
 </section>
 <!-- Footer -->
-<footer class="bg-blue-900">
-  <div class="max-w-screen-2xl px-8 py-8 mx-auto xlg:px-12">
+<footer class="bg-purple-900 border-t-2 border-purple-800">
+  <div class="max-w-screen-2xl px-8 pb-8 mx-auto xlg:px-12">
     <div class="flex flex-col flex-wrap items-center justify-between py-8 mx-auto md:flex-row">
       <div class="text-center md:text-left">
         <a href="#" class="text-2xl text-white rounded-lg focus:outline-none focus:shadow-outline">‍health<span class="font-bold">mapper</span></a>
@@ -183,7 +183,7 @@
     </div>
 
     <!-- Legal -->
-    <div class="flex items-center justify-center px-5 py-6 mx-auto text-base border-t-2 border-blue-700 flex-wrap md:ml-auto md:mr-auto">
+    <div class="flex items-center justify-center px-5 py-6 mx-auto text-base border-t-2 border-purple-800 flex-wrap md:ml-auto md:mr-auto">
       <div class="flex flex-col md:flex-row md:flex-wrap items-center justify-center mx-auto text-base">
         <p class="md:mr-5 mb-4 md:mb-0 text-sm text-center text-gray-200">&copy; mapper.health, 2021. All rights reserved.</p>
         <a class="justify-center mr-5 text-sm font-semibold text-center text-blue-200 hover:text-white focus:text-white" href="/privacy-cookies/">Privacy & Cookie Policy</a>
