@@ -1,9 +1,4 @@
----
-layout: crisis
-title: Crisis
-permalink: /crisis/
----
-
+I"�
 <section class="bg-gray-900">
   <div class="max-w-screen-2xl px-12 py-12 mx-auto md:px-10">
     <div class="md:flex md:flex-wrap -m-6">
@@ -18,7 +13,7 @@ permalink: /crisis/
       <div class="md:p-4 mx-auto mb-6 md:w-1/3 md:mb-0">
         <div class="bg-gray-100 rounded-xl flex flex-row bg-gray-800">
           <div class="flex flex-col p-8">
-            <h3 class="pb-2 w-full text-2xl text-white font-semibold">Attend A&E</h3>
+            <h3 class="pb-2 w-full text-2xl text-white font-semibold">Attend A&amp;E</h3>
             <p class="pb-4 text-indigo-100">Covering Cheshire East, Cheshire West and Chester, Halton and Warrington.</p>
           </div>
         </div>
@@ -39,7 +34,7 @@ permalink: /crisis/
           </div>
           <div class="flex flex-col py-8">
             <p class="pb-2 w-full text-2xl text-white font-semibold">Service</p>
-            <ul class="list-disc mx-12 text-indigo-100">
+            <ul class="listed pb-4 text-indigo-100">
               <li>As we’ve started locally, we’re aiming to slowly.</li> 
               <li>As we’ve started locally, we’re aiming to slowly.</li> 
               <li>As we’ve started locally, we’re aiming to slowly.</li> 
@@ -55,3 +50,4 @@ permalink: /crisis/
     </div>
   </div>
 </section>
+:ET
