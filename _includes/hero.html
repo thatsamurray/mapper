@@ -4,32 +4,19 @@
   <div class="flex flex-col mx-auto max-w-screen-md items-center px-4 my-10 lg:my-24 md:px-8">
     <!-- Hero Tagline -->
     <h1 class="mb-2 text-3xl text-center text-white font-semibold md:text-5xl lg:text-left lg:text-4xl xl:text-5xl">Find the support you need</h1>
-    <p class="mb-2 text-3xl text-center font-light">Discover local services, build a support plan and self-refer all in one place. 🥰</p>
+    <p class="mb-2 text-3xl text-center font-light text-indigo-200">Discover local services, build a support plan and self-refer all in one place 🥰</p>
   </div>
 </section>
 
 {% elsif page.url == "/crisis/" %}
 <!-- Hero Section -->
-<section class="bg-red-700 text-red-100">
-  <div class="flex flex-col-reverse max-w-screen-2xl mx-auto items-center px-4 md:px-8 lg:my-12 lg:flex-row">
-      <div class="flex items-baseline w-full mb-4 md:w-3/4 lg:w-2/4 lg:my-8 xlg:max-w-lg">
-        <img src="{{ "/assets/img/crisis-image.svg" | relative_url }}" alt="Image of walking outside">
-      </div>
-      <div class="flex flex-col items-center w-full pt-0 px-6 mb-6 md:mb-10 lg:w-5/12 xl:w-1/2 lg:items-start lg:ml-20 lg:mt-10">
-        <!-- Hero Tagline -->
-        <h1 class="mb-2 text-3xl text-center text-white font-semibold md:mb-4 md:text-5xl lg:text-left lg:text-4xl xl:text-5xl">At risk right now?</h1>
-        <p class="mb-2 text-3xl text-center font-light md:mb-4 lg:text-left">If you feel like you might attempt suicide, or may have seriously harmed yourself, you need urgent medical help:</p>
-        <ul class="bg-white text-gray-700 shadow p-4 my-4 rounded-xl divide-y-2 divide-solid">
-          <li class="pb-2">Call <a class="text-red-500" href="tel:999">999</a> for an ambulance</li>
-          <li class="py-2">Go straight to A&E, if you can</li>
-          <li class="pt-2">Or call your local crisis team, if you have their number.</li>
-        </ul>
-        <p>If you can't do this by yourself, ask someone to help you.</p>
-
-      </div>
+<section class="bg-gray-900 text-indigo-100">
+  <div class="flex flex-col mx-auto max-w-screen-md items-center px-4 my-10 lg:my-24 md:px-8">
+    <!-- Hero Tagline -->
+    <h1 class="mb-2 text-3xl text-center text-white font-semibold md:text-5xl lg:text-left lg:text-4xl xl:text-5xl">At risk right now?</h1>
+    <p class="mb-2 text-3xl text-center font-light">If you feel like you might attempt suicide, or may have seriously harmed yourself, you need urgent medical help</p>
   </div>
 </section>
-
 {% else %}
 
 {% endif %}
