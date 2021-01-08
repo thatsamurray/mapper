@@ -19,6 +19,14 @@
 
     {{ content }}
 
+    {% if page.url == "/" %}
+            
+        {%- include /partials/places -%}
+
+        {% else %}
+
+    {% endif %}
+
     {%- include footer.html -%}
 
     {%- include scripts.html -%}

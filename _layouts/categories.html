@@ -17,13 +17,17 @@
 
     {%- include hero.html -%}                           
     
-        {% if page.url == "/places/" %}
+    {% if page.url == "/places/" %}
             
-            {%- include /components-content/places-top-level -%}
+      {%- include /partials/places -%}
 
-        {% else %}
+    {% endif %}
 
-        {% endif %}
+    {% if page.bodyclass == "merseyside" %}
+                
+      {%- include /partials/boroughs/merseyside -%}
+
+    {% endif %}
 
     {%- include footer.html -%}
 

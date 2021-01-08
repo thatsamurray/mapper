@@ -15,27 +15,25 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Crisis" />
 <script type="application/ld+json">
-{"url":"/crisis/","headline":"Crisis","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","@type":"WebPage","@context":"https://schema.org"}</script>
+{"headline":"Crisis","url":"/crisis/","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="healthmapper" /></head>
 
-<body class="crisis flex flex-col justify-center  md:text-lg"><!-- Masterhead -->
-
-
-    <header class="w-full py-4 md:py-4 text-purple-100 bg-gray-900">
-      <div x-data="{ open: false }" class="flex flex-col max-w-screen-2xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-8">
-        <div class="py-2 flex flex-row items-center justify-between">
-          <!-- Logo -->
-          <a href="/" class="text-lg md:text-2xl text-purple-100 rounded-lg focus:outline-none focus:shadow-outline">‍health<span class="font-bold">mapper</span></a>
-          <button class="md:hidden rounded-lg focus:outline-none focus:shadow-outline" @click="open = !open">
-            <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
-              <path x-show="!open" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
-              <path x-show="open" fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-            </svg>
-          </button>
-        </div>
-    
-        <!-- Navigation -->
+<body class=" flex flex-col justify-center md:text-lg"><!-- Masterhead -->
+  <header class="w-full py-4 md:py-4 text-white bg-indigo-900">
+    <div x-data="{ open: false }" class="flex flex-col max-w-screen-2xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-8">
+      <div class="py-2 flex flex-row items-center justify-between">
+        <!-- Logo -->
+        <a href="/" class="text-lg md:text-2xl text-purple-100 rounded-lg focus:outline-none focus:shadow-outline">‍health<span class="font-bold">mapper</span></a>
+        <button class="md:hidden rounded-lg focus:outline-none focus:shadow-outline" @click="open = !open">
+          <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+            <path x-show="!open" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+            <path x-show="open" fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+          </svg>
+        </button>
+      </div>
+  
+      <!-- Navigation -->
       <nav :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow pb-4 md:pb-0 hidden md:flex md:justify-end md:flex-row">
         <div @click.away="open = false" class="relative" x-data="{ open: false }">
           <button @click="open = !open" class="flex flex-row items-center w-full px-2 py-2 mt-2 md:text-md font-semibold text-left bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-purple-600 focus:bg-purple-600 focus:outline-none focus:shadow-outline">
@@ -65,10 +63,6 @@
 
 
 
-
-  
-
-
   
   <!-- Hero Section -->
   <section class="bg-gray-900 text-indigo-100">
@@ -81,6 +75,9 @@
   
 
   
+
+  
+
 <section class="bg-gray-900">
   <div class="max-w-screen-2xl px-12 py-12 mx-auto md:px-10">
     <div class="md:flex md:flex-wrap -m-6">
