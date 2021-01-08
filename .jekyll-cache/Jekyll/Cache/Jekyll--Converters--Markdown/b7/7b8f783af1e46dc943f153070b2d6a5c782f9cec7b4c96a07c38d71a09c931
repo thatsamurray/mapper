@@ -1,20 +1,16 @@
----
-layout: home
----
-
-<section class="bg-indigo-900">
+I"�	<section class="bg-indigo-900">
   <div class="max-w-screen-2xl px-12 py-12 mx-auto md:px-10">
     <div class="md:flex md:flex-wrap -m-6">
       <div class="md:p-4 mx-auto mb-6 md:w-1/3 md:mb-0">
         <div class="bg-gray-100 rounded-xl flex flex-row bg-indigo-700">
           <div class="flex flex-col p-8">
             <div class="flex">
-              <a class="pb-2 text-2xl text-white font-semibold hover:text-indigo-200" href="{{ "/places/merseyside" | relative_url }}">Merseyside</a>
-              <span class="px-2 py-1 mb-2 mt-1 ml-2 text-sm bg-green-400 font-normal text-green-900 rounded">In Progress</span>
+              <span class="px-2 py-1 mb-2 text-sm bg-green-400 font-normal text-green-900 rounded">In Progress</span>
             </div>
+            <a class="pb-2 w-full text-2xl text-white font-semibold hover:text-indigo-200" href="/places/merseyside">Merseyside</a>
             <p class="pb-4 text-indigo-100">Covering Knowsley, St Helens, Sefton, Wirral and the city of Liverpool.</p>
             <div class="flex"> 
-              <a class="bg-white text-md font-semibold text-indigo-900 hover:bg-indigo-300 hover:text-indigo-900 px-6 py-2 rounded-full" href="{{ "/places/merseyside" | relative_url }}"><span class="hidden">Browse Merseyside </span>→</a>
+              <a class="bg-white text-md font-semibold text-indigo-900 hover:bg-indigo-300 hover:text-indigo-900 px-6 py-2 rounded-full" href="/places/merseyside"><span class="hidden">Browse Merseyside </span>→</a>
             </div>
           </div>
         </div>
@@ -24,12 +20,13 @@ layout: home
         <div class="bg-gray-100 rounded-xl flex flex-row bg-indigo-700">
           <div class="flex flex-col p-8">
             <div class="flex">
-              <a class="pb-2 text-2xl m-0 text-white font-semibold hover:text-indigo-200" href="{{ "/places/cheshire" | relative_url }}">Cheshire</a>
-              <span class="px-2 py-1 mb-2 mt-1 ml-2 text-sm bg-green-400 font-normal text-green-900 rounded">In Progress</span>
+              <a class="pb-2 text-2xl m-0 text-white font-semibold hover:text-indigo-200" href="/places/cheshire">Cheshire</a>
+              <span class="px-2 py-1 text-sm bg-green-400 font-normal text-green-900 rounded">In Progress</span>
             </div>
+            
             <p class="pb-4 text-indigo-100">Covering Cheshire East, Cheshire West and Chester, Halton and Warrington.</p>
             <div class="flex"> 
-              <a class="bg-white text-md font-semibold text-indigo-900 hover:bg-indigo-300 hover:text-indigo-900 px-6 py-2 rounded-full" href="{{ "/places/cheshire" | relative_url }}"><span class="hidden">Browse Cheshire </span>→</a>
+              <a class="bg-white text-md font-semibold text-indigo-900 hover:bg-indigo-300 hover:text-indigo-900 px-6 py-2 rounded-full" href="/places/cheshire"><span class="hidden">Browse Cheshire </span>→</a>
             </div>
           </div>
         </div>
@@ -47,3 +44,4 @@ layout: home
     </div>
   </div>
 </section>
+:ET
