@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}" dir="ltr">
+
+  {%- include head.html -%}
+
+    {% if page.url == "/" %}
+      <!-- Announcement -->
+      <div class="bg-gray-900 text-center p-4">
+        <p class="text-sm text-white"><a class="hover:text-indigo-900 focus:text-indigo-900" href="#">🎉 <span class="pl-2 font-semibold">Good news!</span> We've recently added Halton!</a></p>
+      </div>
+
+    {% else %}
+
+    {% endif %}
+
+    {%- include masthead.html -%}
+
+    {%- include hero.html -%}                           
+    
+        {% if page.url == "/places/" %}
+            
+            {%- include /components-content/places-top-level -%}
+
+        {% else %}
+
+        {% endif %}
+
+    {%- include footer.html -%}
+
+    {%- include scripts.html -%}
+
+  </body>
+</html>
