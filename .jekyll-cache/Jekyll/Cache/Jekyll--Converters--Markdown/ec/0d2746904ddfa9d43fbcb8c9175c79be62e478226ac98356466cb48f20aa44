@@ -1,0 +1,53 @@
+I"�<section class="bg-gray-900">
+  <div class="max-w-screen-2xl px-12 py-12 mx-auto md:px-10">
+    <div class="md:flex md:flex-wrap -m-6">
+      <div class="md:p-4 mx-auto mb-6 md:w-1/3 md:mb-0">
+        <div class="bg-gray-100 rounded-xl flex flex-row bg-gray-800">
+          <div class="flex flex-col p-8">
+            <h3 class="pb-2 w-full text-2xl text-white font-semibold">Call 999</h3>
+            <p class="pb-4 text-indigo-100">Mental health emergencies are serious. You're not wasting anyone's time.</p>
+          </div>
+        </div>
+      </div>
+      <div class="md:p-4 mx-auto mb-6 md:w-1/3 md:mb-0">
+        <div class="bg-gray-100 rounded-xl flex flex-row bg-gray-800">
+          <div class="flex flex-col p-8">
+            <h3 class="pb-2 w-full text-2xl text-white font-semibold">Attend A&amp;E</h3>
+            <p class="pb-4 text-indigo-100">If your life is at risk, you need an emergency service. A&amp;E departments are open 24 hours a day and anyone can visit them free of charge.</p>
+          </div>
+        </div>
+      </div>
+      <div class="md:p-4 mx-auto mb-6 md:w-1/3 md:mb-0">
+        <div class="bg-gray-100 rounded-xl flex flex-row bg-gray-800">
+          <div class="flex flex-col p-8">
+            <h3 class="pb-2 w-full text-2xl text-white font-semibold">Call the Crisis team</h3>
+            <p class="pb-4 text-indigo-100">Crisis teams support people who might otherwise need to go to hospital. They can support you during a crisis if you're already under their care.</p>
+          </div>
+        </div>
+      </div>
+      <div class="md:p-4 mx-auto mb-6 md:w-1/2 md:mb-0">
+        <div class="rounded-xl flex flex-col divide-y-2">
+          <div class="flex flex-col py-8">
+            <h3 class="pb-2 w-full text-2xl text-white font-semibold">Let's talk 💬</h3>
+            <p class="pb-4 text-indigo-100">Whatever you're going through, there are people you can talk to any time.</p>
+            <ul class="list-disc mx-12 text-indigo-100">
+              <li>Call <a class="text-purple-400 hover:text-white focus:text-white" href="https://www.samaritans.org/branches/">Samaritans</a> on <a class="text-purple-400 hover:text-white focus:text-white" href="tel:116123">116 123</a> (UK-wide).  You can also email <a class="text-purple-400 hover:text-white focus:text-white" href="mailto:jo@samaritans.org">jo@samaritans.org</a> or <a class="text-purple-400 hover:text-white focus:text-white" href="https://www.samaritans.org/branches/">visit some branches in person</a>. You can also call the Samaritans Welsh Language Line on <a class="text-purple-400 hover:text-white focus:text-white" href="tel:08081640123">0808 164 0123</a> (7pm–11pm every day).</li> 
+              <li>Call <a class="text-purple-400 hover:text-white focus:text-white" href="https://www.papyrus-uk.org/hopelineuk/">Hopeline</a> on <a class="text-purple-400 hover:text-white focus:text-white" href="tel:08000684141">0800 068 4141</a> (Under 35s only, UK-wide) or text <a class="text-purple-400 hover:text-white focus:text-white" href="sms:07860039967">07860039967</a>.  You can also email <a class="text-purple-400 hover:text-white focus:text-white" href="mailto:pat@papyrus-uk.org">pat@papyrus-uk.org</a></li> 
+              <li>Text <a class="text-purple-400 hover:text-white focus:text-white" href="https://giveusashout.org/">SHOUT</a> to <a class="text-purple-400 hover:text-white focus:text-white" href="sms:85258">85258</a> (UK-wide)</li> 
+              <li>Call <a class="text-purple-400 hover:text-white focus:text-white" href="https://www.callhelpline.org.uk/">C.A.L.L.</a> on <a class="text-purple-400 hover:text-white focus:text-white" href="tel:0800132737">0800 132 737</a> (Wales only)</li> 
+            </ul>
+          </div>
+          <div class="flex flex-col py-8">
+            <p class="pb-2 w-full text-2xl text-white font-semibold">Other Services</p>
+            <ul class="list-disc mx-12 text-indigo-100">
+              <li><a class="text-purple-400 hover:text-white focus:text-white" href="https://www.mind.org.uk/">Mind</a> have a useful list of <a class="text-purple-400 hover:text-white focus:text-white" href="https://www.mind.org.uk/information-support/guides-to-support-and-services/crisis-services/helplines-listening-services/">helplines and listening services</a></li> 
+              <li>If you're homeless, <a class="text-purple-400 hover:text-white focus:text-white" href="https://www.crisis.org.uk/">Crisis</a> can provide <a class="text-purple-400 hover:text-white focus:text-white" href="https://www.crisis.org.uk/get-help/">safe housing and advice</a></li> 
+              <li>call C.A.L.L. on 0800 132 737 (Wales only)</li> 
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+:ET
