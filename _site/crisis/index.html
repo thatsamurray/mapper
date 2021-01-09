@@ -15,16 +15,16 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Crisis" />
 <script type="application/ld+json">
-{"headline":"Crisis","url":"/crisis/","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","@type":"WebPage","@context":"https://schema.org"}</script>
+{"url":"/crisis/","headline":"Crisis","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="healthmapper" /></head>
 
 <body class=" flex flex-col justify-center md:text-lg"><!-- Masterhead -->
-  <header class="w-full py-4 md:py-4 text-white bg-indigo-900">
+  <header class="w-full py-4 md:py-4 text-indigo-300 bg-gray-900">
     <div x-data="{ open: false }" class="flex flex-col max-w-screen-2xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-8">
       <div class="py-2 flex flex-row items-center justify-between">
         <!-- Logo -->
-        <a href="/" class="text-lg md:text-2xl text-purple-100 rounded-lg focus:outline-none focus:shadow-outline">‍health<span class="font-bold">mapper</span></a>
+        <a href="/" class="text-lg md:text-2xl text-indigo-100 rounded-lg focus:outline-none focus:shadow-outline">‍health<span class="font-bold">mapper</span></a>
         <button class="md:hidden rounded-lg focus:outline-none focus:shadow-outline" @click="open = !open">
           <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
             <path x-show="!open" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
@@ -36,12 +36,12 @@
       <!-- Navigation -->
       <nav :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow pb-4 md:pb-0 hidden md:flex md:justify-end md:flex-row">
         <div @click.away="open = false" class="relative" x-data="{ open: false }">
-          <button @click="open = !open" class="flex flex-row items-center w-full px-2 py-2 mt-2 md:text-md font-semibold text-left bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-indigo-800 focus:bg-indigo-800 focus:outline-none focus:shadow-outline">
+          <button @click="open = !open" class="flex flex-row items-center w-full px-2 py-2 mt-2 md:text-md font-semibold text-left bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-gray-800 focus:bg-gray-800 focus:outline-none focus:shadow-outline">
             <span>Browse Places</span>
             <svg fill="currentColor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}" class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
           </button>
           <div x-show="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute right-0 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-80">
-            <div class="px-2 py-2 bg-white rounded-md shadow">
+            <div class="px-2 py-2 bg-black rounded-md shadow">
               <a class="flex flex row items-center rounded-lg bg-transparent p-2 font-semibold text-purple-700 hover:text-purple-600 focus:text-purple-600 hover:bg-purple-200 focus:bg-purple-200 focus:outline-none focus:shadow-outline" href="/places/merseyside">
                 Merseyside
               </a>
@@ -51,8 +51,8 @@
             </div>
           </div>
         </div>
-        <a class="px-2 py-2 mt-2 md:text-md font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-indigo-800 focus:bg-indigo-800 focus:outline-none focus:shadow-outline" href="/resources/">Resources</a>
-        <a class="flex flex-row items-center w-full px-2 py-2 mt-2 md:text-md font-semibold text-left bg-transparent text-red-300 rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 hover:text-red-300 focus:text-red-300 hover:bg-indigo-800 focus:bg-indigo-800 focus:outline-none focus:shadow-outline" href="/crisis/">Crisis Information</a>
+        <a class="px-2 py-2 mt-2 md:text-md font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-gray-800 focus:bg-gray-800 focus:outline-none focus:shadow-outline" href="/resources/">Resources</a>
+        <a class="flex flex-row items-center w-full px-2 py-2 mt-2 md:text-md font-semibold text-left bg-transparent text-red-300 rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-gray-800 focus:bg-gray-800 focus:outline-none focus:shadow-outline" href="/crisis/">Crisis Information</a>
       </nav>
     </div>
   </header>
@@ -61,7 +61,7 @@
 
   
   <!-- Hero Section -->
-  <section class="bg-gray-900 text-indigo-100">
+  <section class="bg-gray-900 text-gray-100">
     <div class="flex flex-col mx-auto max-w-screen-md items-center px-4 my-10 lg:my-24 md:px-8">
       <!-- Hero Tagline -->
       <h1 class="mb-2 text-3xl text-center text-white font-semibold md:text-5xl lg:text-left lg:text-4xl xl:text-5xl">At risk right now?</h1>
@@ -74,30 +74,30 @@
 
   
 
-<section class="bg-gray-900">
+  <section class="bg-gray-900">
   <div class="max-w-screen-2xl px-12 py-12 mx-auto md:px-10">
     <div class="md:flex md:flex-wrap -m-6">
       <div class="md:p-4 mx-auto mb-6 md:w-1/3 md:mb-0">
-        <div class="bg-gray-100 rounded-xl flex flex-row bg-gray-800">
+        <div class="bg-gray-300 rounded-xl flex flex-row bg-gray-800">
           <div class="flex flex-col p-8">
             <h2 class="pb-2 w-full text-2xl text-white font-semibold">Call 999</h2>
-            <p class="pb-4 text-indigo-100">Mental health emergencies are serious. You're not wasting anyone's time.</p>
+            <p class="pb-4 text-gray-300">Mental health emergencies are serious. You're not wasting anyone's time.</p>
           </div>
         </div>
       </div>
       <div class="md:p-4 mx-auto mb-6 md:w-1/3 md:mb-0">
-        <div class="bg-gray-100 rounded-xl flex flex-row bg-gray-800">
+        <div class="bg-gray-300 rounded-xl flex flex-row bg-gray-800">
           <div class="flex flex-col p-8">
             <h2 class="pb-2 w-full text-2xl text-white font-semibold">Attend A&amp;E</h2>
-            <p class="pb-4 text-indigo-100">If your life is at risk, you need an emergency service. A&amp;E departments are open 24 hours a day and anyone can visit them free of charge.</p>
+            <p class="pb-4 text-gray-300">If your life is at risk, you need an emergency service. A&amp;E departments are open 24 hours a day and anyone can visit them free of charge.</p>
           </div>
         </div>
       </div>
       <div class="md:p-4 mx-auto mb-6 md:w-1/3 md:mb-0">
-        <div class="bg-gray-100 rounded-xl flex flex-row bg-gray-800">
+        <div class="bg-gray-300 rounded-xl flex flex-row bg-gray-800">
           <div class="flex flex-col p-8">
             <h2 class="pb-2 w-full text-2xl text-white font-semibold">Call the Crisis team</h2>
-            <p class="pb-4 text-indigo-100">Crisis teams support people who might otherwise need to go to hospital. They can support you during a crisis if you're already under their care.</p>
+            <p class="pb-4 text-gray-300">Crisis teams support people who might otherwise need to go to hospital. They can support you during a crisis if you're already under their care.</p>
           </div>
         </div>
       </div>
@@ -105,19 +105,19 @@
         <div class="rounded-xl flex flex-col divide-y-2">
           <div class="flex flex-col py-8">
             <h3 class="pb-2 w-full text-2xl text-white font-semibold">Let's talk 💬</h3>
-            <p class="pb-4 text-indigo-100">Whatever you're going through, there are people you can talk to any time.</p>
-            <ul class="list-disc mx-12 text-indigo-100">
-              <li>Call <a class="text-purple-400 hover:text-white focus:text-white" href="https://www.samaritans.org/branches/">Samaritans</a> on <a class="text-purple-400 hover:text-white focus:text-white" href="tel:116123">116 123</a> (UK-wide).  You can also email <a class="text-purple-400 hover:text-white focus:text-white" href="mailto:jo@samaritans.org">jo@samaritans.org</a> or <a class="text-purple-400 hover:text-white focus:text-white" href="https://www.samaritans.org/branches/">visit some branches in person</a>. You can also call the Samaritans Welsh Language Line on <a class="text-purple-400 hover:text-white focus:text-white" href="tel:08081640123">0808 164 0123</a> (7pm–11pm every day).</li> 
-              <li>Call <a class="text-purple-400 hover:text-white focus:text-white" href="https://www.papyrus-uk.org/hopelineuk/">Hopeline</a> on <a class="text-purple-400 hover:text-white focus:text-white" href="tel:08000684141">0800 068 4141</a> (Under 35s only, UK-wide) or text <a class="text-purple-400 hover:text-white focus:text-white" href="sms:07860039967">0786 003 9967</a>.  You can also email <a class="text-purple-400 hover:text-white focus:text-white" href="mailto:pat@papyrus-uk.org">pat@papyrus-uk.org</a></li> 
-              <li>Text <a class="text-purple-400 hover:text-white focus:text-white" href="https://giveusashout.org/">SHOUT</a> to <a class="text-purple-400 hover:text-white focus:text-white" href="sms:85258">85258</a> (UK-wide)</li> 
-              <li>Call <a class="text-purple-400 hover:text-white focus:text-white" href="https://www.callhelpline.org.uk/">C.A.L.L.</a> on <a class="text-purple-400 hover:text-white focus:text-white" href="tel:0800132737">0800 132 737</a> (Wales only)</li> 
+            <p class="pb-4 text-gray-300">Whatever you're going through, there are people you can talk to any time.</p>
+            <ul class="list-disc mx-12 text-gray-300">
+              <li>Call <a class="text-indigo-300 hover:text-white focus:text-white" href="https://www.samaritans.org/branches/">Samaritans</a> on <a class="text-indigo-300 hover:text-white focus:text-white" href="tel:116123">116 123</a> (UK-wide).  You can also email <a class="text-indigo-300 hover:text-white focus:text-white" href="mailto:jo@samaritans.org">jo@samaritans.org</a> or <a class="text-indigo-300 hover:text-white focus:text-white" href="https://www.samaritans.org/branches/">visit some branches in person</a>. You can also call the Samaritans Welsh Language Line on <a class="text-indigo-300 hover:text-white focus:text-white" href="tel:08081640123">0808 164 0123</a> (7pm–11pm every day).</li> 
+              <li>Call <a class="text-indigo-300 hover:text-white focus:text-white" href="https://www.papyrus-uk.org/hopelineuk/">Hopeline</a> on <a class="text-indigo-300 hover:text-white focus:text-white" href="tel:08000684141">0800 068 4141</a> (Under 35s only, UK-wide) or text <a class="text-indigo-300 hover:text-white focus:text-white" href="sms:07860039967">0786 003 9967</a>.  You can also email <a class="text-indigo-300 hover:text-white focus:text-white" href="mailto:pat@papyrus-uk.org">pat@papyrus-uk.org</a></li> 
+              <li>Text <a class="text-indigo-300 hover:text-white focus:text-white" href="https://giveusashout.org/">SHOUT</a> to <a class="text-indigo-300 hover:text-white focus:text-white" href="sms:85258">85258</a> (UK-wide)</li> 
+              <li>Call <a class="text-indigo-300 hover:text-white focus:text-white" href="https://www.callhelpline.org.uk/">C.A.L.L.</a> on <a class="text-indigo-300 hover:text-white focus:text-white" href="tel:0800132737">0800 132 737</a> (Wales only)</li> 
             </ul>
           </div>
           <div class="flex flex-col py-8">
             <p class="pb-2 w-full text-2xl text-white font-semibold">Other Services</p>
-            <ul class="list-disc mx-12 text-indigo-100">
-              <li><a class="text-purple-400 hover:text-white focus:text-white" href="https://www.mind.org.uk/">Mind</a> have a useful list of <a class="text-purple-400 hover:text-white focus:text-white" href="https://www.mind.org.uk/information-support/guides-to-support-and-services/crisis-services/helplines-listening-services/">helplines and listening services</a></li> 
-              <li>If you're homeless, <a class="text-purple-400 hover:text-white focus:text-white" href="https://www.crisis.org.uk/">Crisis</a> can provide <a class="text-purple-400 hover:text-white focus:text-white" href="https://www.crisis.org.uk/get-help/">safe housing and advice</a></li> 
+            <ul class="list-disc mx-12 text-gray-300">
+              <li><a class="text-indigo-300 hover:text-white focus:text-white" href="https://www.mind.org.uk/">Mind</a> have a useful list of <a class="text-indigo-300 hover:text-white focus:text-white" href="https://www.mind.org.uk/information-support/guides-to-support-and-services/crisis-services/helplines-listening-services/">helplines and listening services</a></li> 
+              <li>If you're homeless, <a class="text-indigo-300 hover:text-white focus:text-white" href="https://www.crisis.org.uk/">Crisis</a> can provide <a class="text-indigo-300 hover:text-white focus:text-white" href="https://www.crisis.org.uk/get-help/">safe housing and advice</a></li> 
             </ul>
           </div>
         </div>
@@ -126,35 +126,35 @@
   </div>
 </section>
 <!-- Footer -->
-<footer class="bg-indigo-900 border-t-2 border-indigo-800">
+<footer class="bg-gray-900 border-t-2 border-gray-800">
   <div class="max-w-screen-2xl px-8 pb-8 mx-auto xlg:px-12">
     <div class="flex flex-col flex-wrap items-center justify-between py-8 mx-auto md:flex-row">
       <div class="text-center md:text-left">
         <a href="#" class="text-2xl text-white rounded-lg focus:outline-none focus:shadow-outline">‍health<span class="font-bold">mapper</span></a>
-        <span class="block  text-sm mt-2 font-mono text-blue-200">Made by Adam Murray</span>
+        <span class="block  text-sm mt-2 font-mono text-indigo-300">Made by Adam Murray</span>
       </div>
 
       <!-- Navigation -->
       <div class="flex flex-wrap items-center justify-center mx-auto text-base md:ml-auto md:mr-auto">
-        <a class="mt-2 md:text-md font-semibold text-blue-200 bg-transparent md:mt-0 md:ml-4 hover:text-white focus:text-white" href="/places/">Places</a>
-        <a class="mt-2 md:text-md font-semibold text-blue-200 bg-transparent md:mt-0 md:ml-4 hover:text-white focus:text-white" href="/about/">About</a>
-        <a class="mt-2 md:text-md font-semibold text-blue-200 bg-transparent md:mt-0 md:ml-4 hover:text-white focus:text-white" href="/contact/">Contact</a>
+        <a class="mt-2 md:text-md font-semibold text-indigo-300 bg-transparent md:mt-0 md:ml-4 hover:text-white focus:text-white" href="/places/">Places</a>
+        <a class="mt-2 md:text-md font-semibold text-indigo-300 bg-transparent md:mt-0 md:ml-4 hover:text-white focus:text-white" href="/about/">About</a>
+        <a class="mt-2 md:text-md font-semibold text-indigo-300 bg-transparent md:mt-0 md:ml-4 hover:text-white focus:text-white" href="/contact/">Contact</a>
       </div>
 
       <!-- Social -->
       <div class="inline-flex items-center justify-center md:justify-start ">
         <span class="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
-          <a class="text-blue-200 hover:text-white">
+          <a class="text-indigo-300 hover:text-white">
             <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
               <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
             </svg>
           </a>
-          <a class="ml-4 text-blue-200 hover:text-white">
+          <a class="ml-4 text-indigo-300 hover:text-white">
             <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
               <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
             </svg>
           </a>
-          <a class="ml-4 text-blue-200 hover:text-white">
+          <a class="ml-4 text-indigo-300 hover:text-white">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
               <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
               <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
@@ -165,21 +165,21 @@
     </div>
 
     <!-- Legal -->
-    <div class="flex items-center justify-center px-5 py-6 mx-auto text-base border-t-2 border-indigo-800 flex-wrap md:ml-auto md:mr-auto">
+    <div class="flex items-center justify-center px-5 py-6 mx-auto text-base border-t-2 border-gray-800 flex-wrap md:ml-auto md:mr-auto">
       <div class="flex flex-col md:flex-row md:flex-wrap items-center justify-center mx-auto text-base">
-        <p class="md:mr-5 mb-4 md:mb-0 text-sm text-center text-gray-200">&copy; mapper.health, 2021. All rights reserved.</p>
-        <a class="justify-center mr-5 text-sm font-semibold text-center text-blue-200 hover:text-white focus:text-white" href="/privacy-cookies/">Privacy & Cookie Policy</a>
-        <a class="justify-center mr-5 text-sm font-semibold text-center text-blue-200 hover:text-white focus:text-white" href="/terms-of-service/">Terms Of Service</a>
-        <a class="justify-center mr-5 text-sm font-semibold text-center text-blue-200 hover:text-white focus:text-white" href="/disclaimer/">Disclaimer</a>
+        <p class="md:mr-5 mb-4 md:mb-0 text-sm text-center text-gray-300">&copy; mapper.health, 2021. All rights reserved.</p>
+        <a class="justify-center mr-5 text-sm font-semibold text-center text-indigo-300 hover:text-white focus:text-white" href="/privacy-cookies/">Privacy & Cookie Policy</a>
+        <a class="justify-center mr-5 text-sm font-semibold text-center text-indigo-300 hover:text-white focus:text-white" href="/terms-of-service/">Terms Of Service</a>
+        <a class="justify-center mr-5 text-sm font-semibold text-center text-indigo-300 hover:text-white focus:text-white" href="/disclaimer/">Disclaimer</a>
       </div>
     </div>
 
-    <div class="flex items-center justify-center px-5 py-6 mx-auto text-base border-t-2 border-indigo-800 flex-wrap md:ml-auto md:mr-auto">
+    <div class="flex items-center justify-center px-5 py-6 mx-auto text-base border-t-2 border-gray-800 flex-wrap md:ml-auto md:mr-auto">
       <div class="flex flex-col md:flex-row md:flex-wrap items-center justify-center mx-auto text-base">
-        <p class="md:mr-5 mb-4 md:mb-0 text-sm text-center text-gray-200">Process Reference</p>
-        <a class="justify-center mr-5 text-sm font-semibold text-center text-blue-200 hover:text-white focus:text-white" href="/privacy-cookies/">Self-assessment</a>
-        <a class="justify-center mr-5 text-sm font-semibold text-center text-blue-200 hover:text-white focus:text-white" href="/terms-of-service/">Personalised Plan</a>
-        <a class="justify-center mr-5 text-sm font-semibold text-center text-blue-200 hover:text-white focus:text-white" href="/disclaimer/">Referral</a>
+        <p class="md:mr-5 mb-4 md:mb-0 text-sm text-center text-gray-300">Process Reference</p>
+        <a class="justify-center mr-5 text-sm font-semibold text-center text-indigo-300 hover:text-white focus:text-white" href="/privacy-cookies/">Self-assessment</a>
+        <a class="justify-center mr-5 text-sm font-semibold text-center text-indigo-300 hover:text-white focus:text-white" href="/plan/">Personalised Plan</a>
+        <a class="justify-center mr-5 text-sm font-semibold text-center text-indigo-300 hover:text-white focus:text-white" href="/disclaimer/">Referral</a>
       </div>
     </div>
   </div>
