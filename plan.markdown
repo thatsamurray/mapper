@@ -13,7 +13,7 @@ bodyclass: plan
 
   <div class="max-w-screen-sm px-12 py-12 z-10 relative mx-auto md:px-10">
     <div class="flex flex-col -m-6">
-      <div class="md:p-4 mx-auto mb-6  md:mb-0">
+      <div class="md:p-4 mx-auto mb-6 md:mb-0">
         <div class="rounded-xl flex flex-row text-indigo-100 bg-gray-800">
           <div class="flex flex-col p-8">
             <span class="text-sm pb-4">
