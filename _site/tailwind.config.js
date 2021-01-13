@@ -4,7 +4,7 @@ module.exports = {
 	theme: {
 		colors: {
 			cl__first: 'var(--cl-first)',
-			cl__second: 'var(--cl-second)'
+			cl__second: 'var(--cl-second)',
 			cl__third: 'var(--cl-third)',
 			cl__fourth: 'var(--cl-fourth)'
 		}
