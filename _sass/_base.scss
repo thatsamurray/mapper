@@ -8,7 +8,7 @@ body {
         color: var(--cl-link);
 
         &:hover, &:focus { 
-            color: var(--cl-first);
+            color: var(--cl-link-hover);
         }
     }
 }
