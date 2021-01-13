@@ -1,4 +1,14 @@
 body { 
+    background: var(--cl-background);
+    color: var(--cl-font);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    a { 
+        color: var(--cl-link);
+
+        &:hover, &:focus { 
+            color: var(--cl-first);
+        }
+    }
 }

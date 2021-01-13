@@ -1,5 +1,18 @@
 @charset "utf-8";
 
+:root {
+
+  --cl-background: #fff;
+  --cl-font: #191a25;
+  --cl-link: #8994e0;
+
+
+  --cl-first: #5c6ac4;
+  --cl-second: #ecc94b;
+  --cl-third: #ecc94b;
+  --cl-fourth: #ecc94b;
+}
+
 // Import partials.
 @import
   "base",
