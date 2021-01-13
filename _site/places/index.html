@@ -37,14 +37,16 @@
   
       <!-- Navigation -->
       <nav :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow pb-4 md:pb-0 hidden md:flex md:justify-end md:flex-row">
+
         <div @click.away="open = false" class="relative" x-data="{ open: false }">
-          <button @click="open = !open" class="flex flex-row items-center w-full px-2 py-2 mt-2 md:text-md font-semibold text-left rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 focus:outline-none focus:shadow-outline">
+          <button @click="open = !open" class="flex flex-row items-center w-full mt-2 focus:outline-none focus:shadow-outline md:w-auto md:inline mt-2 md:text-md font-semibold md:ml-4">
             <span>Browse Places</span>
             <svg fill="currentColor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}" class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
           </button>
+
           <div x-show="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute right-0 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-80">
             <div class="px-2 py-2 rounded-md shadow">
-              <a class="flex flex row items-center rounded-lg bg-transparent p-2 font-semibold focus:outline-none focus:shadow-outline" href="/places/merseyside">
+              <a class="flex flex row items-center p-2 font-semibold focus:outline-none focus:shadow-outline" href="/places/merseyside">
                 Merseyside
               </a>
               <a class="flex flex row items-center rounded-md p-2 font-semibold focus:outline-none focus:shadow-outline" href="/places/cheshire">
@@ -53,8 +55,9 @@
             </div>
           </div>
         </div>
-        <a class="px-2 py-2 mt-2 md:text-md font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 focus:outline-none focus:shadow-outline" href="/resources/">Resources</a>
-        <a class="flex flex-row items-center w-full px-2 py-2 mt-2 md:text-md font-semibold text-left bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 focus:outline-none focus:shadow-outline" href="/crisis/">Crisis Information</a>
+
+        <a class="mt-2 md:text-md font-semibold md:ml-4" href="/resources/">Resources</a>
+        <a class="mt-2 md:text-md font-semibold md:ml-4" href="/crisis/">Crisis Information</a>
       </nav>
     </div>
   </header>
@@ -76,12 +79,12 @@
 
   
 
-  <section class="bg-red-100">
-  <div class="max-w-screen-2xl px-12 pb-12 mx-auto md:px-0">
-    <div class="md:flex md:flex-wrap md:justify-center">
+  <section>
+  <div class="max-w-screen-2xl px-12 pb-12 mx-auto sm:px-0">
+    <div class="sm:flex sm:flex-wrap sm:justify-center">
 
-      <div class="md:p-4 mb-6 md:w-1/5 md:mb-0">
-        <div class="pod rounded-xl flex flex-col bg-red-100 shadow-lg">
+      <div class="sm:p-4 mb-6 sm:w-1/2 md:w-1/3 lg:w-1/4 sm:mb-0">
+        <div class="pod rounded-xl flex flex-col shadow-lg">
           <header class="flex items-end justify-center w-full px-2 h-32 bg-indigo-100 rounded-t-xl">
               <img class="w-40" src="assets/img/outside-1.svg" />
           </header>
@@ -92,8 +95,8 @@
         </div>
       </div>
 
-      <div class="md:p-4 mb-6 md:w-1/5 md:mb-0">
-        <div class="pod rounded-xl flex flex-col bg-red-100 shadow-lg">
+      <div class="sm:p-4 mb-6 sm:w-1/2 md:w-1/3 lg:w-1/4 sm:mb-0">
+        <div class="pod rounded-xl flex flex-col shadow-lg">
           <header class="flex items-end justify-center w-full px-2 h-32 bg-indigo-100 rounded-t-xl">
               <img class="w-40" src="assets/img/outside-1.svg" />
           </header>
@@ -109,9 +112,9 @@
 </section>
 
 <section>
-  <div class="max-w-screen-2xl px-12 py-12 mx-auto md:px-10 md:pt-0">
-    <div class="md:flex md:flex-wrap">
-      <div class="max-w-screen-sm md:p-4 mx-auto mb-6 md:mb-0">
+  <div class="max-w-screen-2xl px-12 py-12 mx-auto sm:px-10 sm:pt-0">
+    <div class="sm:flex sm:flex-wrap">
+      <div class="max-w-screen-sm sm:p-4 mx-auto mb-6 sm:mb-0">
         <div class="rounded-xl flex flex-row">
           <div class="flex flex-col px-8">
             <h2 class="pb-2 w-full text-2xl font-semibold">Where next?</h2>
