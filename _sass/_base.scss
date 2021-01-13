@@ -12,3 +12,12 @@ body {
         }
     }
 }
+
+.no-link { 
+    color: var(--cl-font);
+    pointer: normal;
+
+    &:hover, &:focus { 
+        color: var(--cl-font);
+    }
+}

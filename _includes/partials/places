@@ -1,40 +1,31 @@
-<section>
+<section class="bg-red-100">
   <div class="max-w-screen-2xl px-12 pb-12 mx-auto md:px-0">
     <div class="md:flex md:flex-wrap md:justify-center">
+
       <div class="md:p-4 mb-6 md:w-1/5 md:mb-0">
-        <div class="rounded-xl flex flex-col bg-white shadow-lg">
-
-          <div class="flex">
-            <div class="flex items-end justify-center w-full px-2 h-32 bg-indigo-100 rounded-t-xl">
+        <div class="pod rounded-xl flex flex-col bg-red-100 shadow-lg">
+          <header class="flex items-end justify-center w-full px-2 h-32 bg-indigo-100 rounded-t-xl">
               <img class="w-40" src="assets/img/outside-1.svg" />
-            </div>
-          </div>
-
+          </header>
           <div class="flex flex-col p-8">
-            <div class="flex">
-              <a class="pb-2 text-xl font-semibold" href="{{ "/places/merseyside" | relative_url }}">Merseyside</a>
-            </div>
+            <a class="pb-2 text-2xl font-semibold" href="{{ "/places/merseyside" | relative_url }}">Merseyside</a>
             <p class="text-sm">Covering Knowsley, St Helens, Sefton, Wirral and the city of Liverpool.</p>
           </div>
         </div>
       </div>
+
       <div class="md:p-4 mb-6 md:w-1/5 md:mb-0">
-        <div class="rounded-xl flex flex-col bg-white shadow-lg">
-
-          <div class="flex">
-            <div class="flex items-end justify-center w-full px-2 h-32 bg-indigo-100 rounded-t-xl">
+        <div class="pod rounded-xl flex flex-col bg-red-100 shadow-lg">
+          <header class="flex items-end justify-center w-full px-2 h-32 bg-indigo-100 rounded-t-xl">
               <img class="w-40" src="assets/img/outside-1.svg" />
-            </div>
-          </div>
-
+          </header>
           <div class="flex flex-col p-8">
-            <div class="flex">
-              <a class="pb-2 text-xl font-semibold" href="{{ "/places/cheshire" | relative_url }}">Cheshire</a>
-            </div>
+            <a class="pb-2 text-2xl font-semibold" href="{{ "/places/cheshire" | relative_url }}">Cheshire</a>
             <p class="text-sm">Covering Cheshire East, Cheshire West and Chester, Halton and Warrington.</p>
           </div>
         </div>
       </div>
+
     </div>
   </div>
 </section>
