@@ -1,18 +1,11 @@
 <!-- Footer -->
-<footer class="border-t-2 border-gray-800">
-  <div class="max-w-screen-2xl px-8 pb-8 mx-auto xlg:px-12">
-    <div class="flex flex-col flex-wrap items-center justify-between py-8 mx-auto md:flex-row">
-      <div class="text-center md:text-left">
-        <a href="#" class="text-lg md:text-2xl cursor-default no-link">‍health<span class="font-bold">mapper</span></a>
-        <span class="block text-sm mt-2 font-mono">Made by Adam Murray</span>
-      </div>
+<footer>
+  <div class="max-w-screen-lg px-8 pb-8 mx-auto xlg:px-12">
+    <div class="flex flex-col flex-wrap items-center justify-between py-8 mx-auto border-t-4 border-cl__utility_primary md:flex-row">
 
-      <!-- Navigation -->
-      <div class="flex flex-wrap items-center justify-center mx-auto text-base md:ml-auto md:mr-auto">
-        <a class="mt-2 md:text-md font-semibold md:mt-0 md:ml-4" href="/places/">Places</a>
-        <a class="mt-2 md:text-md font-semibold md:mt-0 md:ml-4" href="/about/">About</a>
-        <a class="mt-2 md:text-md font-semibold md:mt-0 md:ml-4" href="/contact/">Contact</a>
-      </div>
+      <nav class="flex-col flex-grow pb-4 md:pb-0 md:flex md:justify-start md:flex-row">
+        {%- include navigation.html -%}
+      </nav>
 
       <!-- Social -->
       <div class="inline-flex items-center justify-center md:justify-start ">
@@ -38,15 +31,17 @@
     </div>
 
     <!-- Legal -->
-    <div class="flex items-center justify-center px-5 py-6 mx-auto text-base border-t-2 border-gray-800 flex-wrap md:ml-auto md:mr-auto">
-      <div class="flex flex-col md:flex-row md:flex-wrap items-center justify-center mx-auto text-base">
-        <p class="md:mr-5 mb-4 md:mb-0 text-sm text-center">&copy; mapper.health, 2021. All rights reserved.</p>
-        <a class="justify-center mr-5 text-sm font-semibold text-center" href="/privacy-cookies/">Privacy & Cookie Policy</a>
-        <a class="justify-center mr-5 text-sm font-semibold text-center" href="/terms-of-service/">Terms Of Service</a>
-        <a class="justify-center mr-5 text-sm font-semibold text-center" href="/disclaimer/">Disclaimer</a>
+    <div class="flex items-center justify-center px-5 py-6 mx-auto text-base border-t-4 border-cl__utility_primary flex-wrap md:ml-auto md:mr-auto">
+      <div class="flex flex-col mx-auto text-center">
+        <p class="text-xs mb-4">
+          <a href="/notes/">Notes</a>
+          <span class="sep">·</span>
+          <a href="/privacy/">Privacy</a>
+          <span class="sep">·</span>
+          <a href="/cookies/">Cookies</a>
+        </p>
+        <p class="text-xs mb-0">&copy; mapper.health, 2021. All rights reserved. ✌️</p>
       </div>
     </div>
-
-    {%- include page-structure.html -%}
   </div>
 </footer>

@@ -1,5 +1,6 @@
 body { 
     background: var(--cl-background);
+    font-family: '--fe-regular', serif;
     color: var(--cl-font);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -13,11 +14,66 @@ body {
     }
 }
 
+article {
+    p {
+        margin-bottom: 1.5rem;
+    }
+}
+
+.post-header { 
+    h1 { 
+        display: flex;
+    }
+
+    span { 
+        border-bottom: 5px solid var(--cl-first);
+    }
+}
+
+.post-content {
+    h1,h2,h3,h4,h5,h6 { 
+        margin-top: 3rem;
+    }
+}
+
+.highlight { 
+    color: var(--cl-first);
+}
+
 .no-link { 
     color: var(--cl-font);
     pointer: normal;
 
     &:hover, &:focus { 
         color: var(--cl-font);
+    }
+}
+
+.site-logo { 
+    font-family: '--fe-italic', serif;
+    transform: rotate(-4deg);
+}
+
+header { 
+    nav { 
+        a:last-child { 
+            margin-right: 0;
+        }
+    }
+}
+
+.sep { 
+    margin: 0 0.5rem;
+}
+
+i, .italic { 
+    font-family: '--fe-italic';
+}
+
+footer { 
+    nav { 
+        a:first-child { 
+            margin-left: 0;
+        }
     }
 }

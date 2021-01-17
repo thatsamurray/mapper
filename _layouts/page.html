@@ -2,18 +2,17 @@
 layout: default
 ---
 
-<section class="text-gray-700 body-font">
-  <div class="max-w-screen-2xl px-4 py-12 mx-auto md:px-8">
+<section>
+  <div class="max-w-screen-md px-4 md:px-8 my-8 md:my-12 mx-auto">
     <article class="post">
-
       <header class="post-header">
-        <h1 class="text-3xl text-center font-semibold text-gray-90 md:text-5xl lg:text-left lg:text-4x mb-4 md:mb-8">{{ page.title | escape }}</h1>
+        <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-5xl">
+          <span>{{ page.title | escape }}</span>
+        </h1>
       </header>
-
       <div class="post-content">
         {{ content }}
       </div>
-
     </article>
   </div>
 </section>

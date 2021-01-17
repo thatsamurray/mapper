@@ -1,0 +1,51 @@
+@font-face {
+    font-family: '--fe-black';
+    src: url('fonts/faune-displayblack-webfont.woff2') format('woff2'),
+         url('fonts/faune-displayblack-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: '--fe-bold-italic';
+    src: url('fonts/faune-displaybolditalic-webfont.woff2') format('woff2'),
+         url('fonts/faune-displaybolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: '--fe-thin';
+    src: url('fonts/faune-displaythin-webfont.woff2') format('woff2'),
+         url('fonts/faune-displaythin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: '--fe-bold';
+    src: url('fonts/faune-textbold-webfont.woff2') format('woff2'),
+         url('fonts/faune-textbold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '--fe-italic';
+    src: url('fonts/faune-textitalic-webfont.woff2') format('woff2'),
+         url('fonts/faune-textitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: '--fe-regular';
+    src: url('fonts/faune-textregular-webfont.woff2') format('woff2'),
+         url('fonts/faune-textregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

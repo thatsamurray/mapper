@@ -2,14 +2,16 @@
 
 :root {
 
-  --cl-background: #f8f8f8;
-  --cl-font: #43576b;
-  --cl-link: #5c6ac4;
-    --cl-link-hover: #7688f5;
+  --cl-background: #081727;
+  --cl-font: #c3dbff;
+  --cl-link: #56c1b8;
+    --cl-link-hover:  #7688f5;
 
+  --cl-utility-primary: #102c4a;
+  --cl-utility-secondary: #729ee0;
 
-  --cl-first: #5c6ac4;
-    --cl-first-alt: #adb7fc;
+  --cl-first: #8900ff;
+    --cl-first-alt: #ABD2FA;
   --cl-second: #C2D8B9;
   --cl-third: #E4F0D0;
   --cl-fourth: #ecc94b;
@@ -19,5 +21,6 @@
 @import
   "base",
   "layout",
+  "fonts",
   "fireworks"
 ;

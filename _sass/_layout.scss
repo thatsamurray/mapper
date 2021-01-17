@@ -1,7 +1,21 @@
-.pod { 
-  background: #fff;
+.post-list { 
+  li { 
+    border-bottom: 4px dotted var(--cl-utility-primary);
 
-  header { 
-    background: var(--cl-first-alt);
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+}
+
+.meta-info {
+  color: var(--cl-utility-secondary);
+
+  a {
+    color: var(--cl-utility-secondary);
+
+    &:hover, &:focus { 
+      color: var(--cl-link-hover);
+    }
   }
 }
